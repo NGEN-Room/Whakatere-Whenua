@@ -1,11 +1,12 @@
 {
   "name": "nodejs-ci-sample",
   "version": "1.0.0",
-  "description": "Sample Node.js project for GitHub Actions CI",
+  "description": "A sample Node.js project for GitHub Actions CI pipeline",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Building project...' && mkdir -p dist && echo 'Build complete.'",
-    "test": "echo 'Running tests...' && echo 'All tests passed!'"
+    "start": "node index.js",
+    "build": "echo 'Building project...' && mkdir -p dist && echo 'Build complete!' > dist/index.html",
+    "test": "node test.js"
   },
   "author": "Your Name",
   "license": "MIT",
