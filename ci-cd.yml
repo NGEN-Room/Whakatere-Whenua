@@ -1,3 +1,0 @@
-git push origin HEAD:refs/heads/Test      # push current branch commit to remote Test
-# or
-git push origin my-branch:Test            # push local my-branch to remote Test
