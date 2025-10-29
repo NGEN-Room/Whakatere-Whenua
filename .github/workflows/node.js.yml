@@ -8,7 +8,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+    paths:
+      - 'Trust/Documents/Github/Whakatere-Whenua/**'
 jobs:
   build:
 
